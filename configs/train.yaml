@@ -1,0 +1,15 @@
+seed: 42
+paths:
+  checkpoint_dir: checkpoints/experiments
+  checkpoint_path: checkpoints/pretrained/cn_spoil_ecml_pkdd_2026.pt
+data:
+  train_path: data/CN-Spoil/train.jsonl
+  max_samples: null
+model:
+  text_dim: 128
+  visual_dim: 128
+  hidden_dim: 128
+training:
+  batch_size: 4
+  epochs: 1
+  learning_rate: 0.001
