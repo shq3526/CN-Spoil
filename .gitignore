@@ -235,3 +235,14 @@ __marimo__/
 # Streamlit
 .streamlit/secrets.toml
 >>>>>>> 110e8f12b40338e91c20ad6e0fc0492169ac7743
+image_manifest.csv
+datasets/image_manifest.csv
+baidu_img_1125/
+jiemian_img_1125/
+toutiao_img_1125/
+spoiler_bart_gated_cn/
+models/*
+!models/.gitkeep
+__pycache__/
+*.pyc
+dataset_test_gated_cn_result.csv
